@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+<!--  主页面顶部的样式风格-->
+    <style name="footerRbStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/main_text_color_selector</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+  <!--  //求购radioButton的风格样式-->
+    <style name="buyRadioButtonStyle">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/buy_text_color_selector</item>
+    </style>
+</resources>

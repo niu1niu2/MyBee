@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+    <RadioGroup
+        android:id="@+id/rg_main_footers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_footer_home_rb"
+            style="@style/footerRbStyle"
+            android:checked="true"
+            android:text="@string/home"
+            android:drawableTop="@drawable/radio_home_selector" />
+
+        <RadioButton
+            android:id="@+id/main_footer_category_rb"
+            style="@style/footerRbStyle"
+            android:checked="false"
+            android:text="@string/buy"
+            android:drawableTop="@drawable/radio_buy_selector" />
+        <RadioButton
+            android:id="@+id/main_footer_subject_rb"
+            style="@style/footerRbStyle"
+            android:checked="false"
+            android:text="@string/message"
+            android:drawableTop="@drawable/radio_message_selector" />
+
+
+        <RadioButton
+            android:id="@+id/main_footer_me_rb"
+            style="@style/footerRbStyle"
+            android:checked="false"
+            android:text="@string/user"
+            android:drawableTop="@drawable/radio_user_selector" />
+
+    </RadioGroup>
+
+</LinearLayout>

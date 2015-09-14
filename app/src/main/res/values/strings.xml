@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyBee</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">首页</string>
+    <string name="buy">求购</string>
+    <string name="message">消息</string>
+    <string name="user">我</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_we_come">WeComeActivity</string>
+</resources>
