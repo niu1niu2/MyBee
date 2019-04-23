@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MyBee.iml" filepath="$PROJECT_DIR$/MyBee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BoYaoSmart.iml" filepath="$PROJECT_DIR$/BoYaoSmart.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
