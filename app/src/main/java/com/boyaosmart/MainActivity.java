@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity  {
         super.onBackPressed();
         exit();
     }
-  //退出程序的方法 通常连续点击来退出
+  //退出程序的方法 通常连续点击来退出  没作用
     private void exit() {
         if ((System.currentTimeMillis()-exitTime)>2000){
             Toast.makeText(getApplicationContext(),"再按一次退出",Toast.LENGTH_LONG).show();
