@@ -1,4 +1,4 @@
-package com.niu.bee;
+package com.boyaosmart;
 
 import android.app.Application;
 
